@@ -9,42 +9,33 @@
 			href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
 			rel="stylesheet"
 		/>
-		<link
-			href="https://fonts.googleapis.com/css?family=Unbounded:200,300,regular,500,600,700,800,900"
-			rel="stylesheet"
-		/>
+		<link href="https://fonts.googleapis.com/css?family=Unbounded:200,300,regular,500,600,700,800,900" rel="stylesheet" />
 		<link rel="stylesheet" href="./css/normalize.css" />
 		<link rel="stylesheet" href="./css/main.css" />
 	</head>
+
 	<body>
 		<div class="wrapper">
 			<div class="container">
-				<button
-					class="button btn__donate"
-					type="button"
-					onclick="window.location.href = 'https://www.donationalerts.com/r/anidat1';"
-				>
+				<button class="button btn__donate" type="button" onclick="window.location.href = 'https://www.donationalerts.com/r/anidat1';">
 					Донат на стрим
 					<img src="./assets/icons/DA_Alert_Black.svg" alt="donationalerts" />
+				</button>
+				<button class="button btn__donate-mem" type="button" onclick="window.location.href = 'https://memealerts.com/64eb6d65346f5c516a233757';">
+					Донат мем на стрим
+					<img width="20" height="20" src="./assets/icons/favicon.ico" alt="memealerts" />
+				</button>
+				<button class="button btn__twitch" type="button" onclick="window.location.href = 'https://yoomoney.ru/to/4100118489472873';">
+					ЮMoney <img src="./assets/icons/io.svg" alt="ЮMoney" />
 				</button>
 				<button
 					class="button btn__donate-mem"
 					type="button"
-					onclick="window.location.href = 'https://memealerts.com/64eb6d65346f5c516a233757';"
+					onclick="navigator.clipboard.writeText('5614681816390920'); alert('Вы скопировали номер Click кошелька: 5614681816390920')"
 				>
-					Донат мем на стрим
-					<img
-						width="20"
-						height="20"
-						src="./assets/icons/favicon.ico"
-						alt="memealerts"
-					/>
+					<img src="./assets/icons/click-up.svg" alt="click" />
 				</button>
-				<button
-					class="button btn__telegramm"
-					type="button"
-					onclick="window.location.href = 'https://t.me/anidattffhkfsk';"
-				>
+				<button class="button btn__telegramm" type="button" onclick="window.location.href = 'https://t.me/anidattffhkfsk';">
 					Телега (там всё о стримах)
 					<img src="./assets/icons/telegram-svgrepo-com.svg" alt="telegram" />
 				</button>
@@ -55,29 +46,12 @@
 				>
 					Канал Boosty <img src="./assets/icons/White.svg" alt="boosty" />
 				</button>
-				<button
-					class="button btn__twitch"
-					type="button"
-					onclick="window.location.href = 'https://www.twitch.tv/anidat1';"
-				>
-					Twitch<img
-						src="./assets/icons/twitch-v2-svgrepo-com.svg"
-						alt="twitch"
-					/>
+				<button class="button btn__twitch" type="button" onclick="window.location.href = 'https://www.twitch.tv/anidat1';">
+					Twitch<img src="./assets/icons/twitch-v2-svgrepo-com.svg" alt="twitch" />
 				</button>
-				<button
-					class="button btn_youtube"
-					type="button"
-					onclick="window.location.href = 'https://www.youtube.com/@anidat1/videos';"
-				>
+				<button class="button btn_youtube" type="button" onclick="window.location.href = 'https://www.youtube.com/@anidat1/videos';">
 					Youtube
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						viewBox="0 0 20 20"
-						width="20"
-						height="20"
-						color="#FFF"
-					>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" color="#FFF">
 						<path
 							d="M19.8008 6C19.8008 6 19.6055 4.62109 19.0039 4.01563C18.2422 3.21875 17.3906 3.21484
 				17 3.16797C14.2031 2.96484 10.0039 2.96484 10.0039 2.96484H9.99609C9.99609 2.96484 5.79688
@@ -92,6 +66,7 @@
 						></path>
 					</svg>
 				</button>
+
 				<div class="logo-chanel">
 					<img src="./assets/images/logo.jpg" alt="logoChanel" />
 					<p>Anidat</p>

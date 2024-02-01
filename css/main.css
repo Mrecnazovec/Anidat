@@ -21,13 +21,12 @@ body {
 	padding: 4% 0;
 	background: rgba(255, 255, 255, 0.2);
 	backdrop-filter: blur(10px);
-	
 }
 .button {
 	display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 54px;
+	justify-content: center;
+	align-items: center;
+	min-height: 54px;
 	width: 90%;
 	margin: 5px 4%;
 	background-color: transparent;
@@ -38,18 +37,17 @@ body {
 	transition: all 0.2s linear;
 	-webkit-filter: brightness(100%);
 	text-align: center;
-  font-style: normal;
-  line-height: 140%;
+	font-style: normal;
+	line-height: 140%;
 }
 .button:hover {
 	-webkit-filter: brightness(90%);
-
 }
 
 .btn__donate {
-	background-color: #00F10D;
+	background-color: #00f10d;
 	color: #5f171d;
-  text-decoration: none;
+	text-decoration: none;
 	font: bold 24px / 31.200000000000003px Raleway;
 }
 .btn__donate-mem {
@@ -58,30 +56,30 @@ body {
 	font: bold 16px / 20.8px Unbounded;
 }
 .btn__telegramm {
-	background-color: #3578F9;
+	background-color: #3578f9;
 	color: white;
 	font: bold 16px / 20.8px Unbounded;
 }
 .btn__boosty {
-	background-color: #F15F2C;
-  font-family: Raleway;
-  font-size: 16px;
-  font-weight: 700;
-  color: #fff;
+	background-color: #f15f2c;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
 }
 .btn__twitch {
 	background-color: rgb(145, 70, 255);
-  font-family: Raleway;
-  font-size: 16px;
-  font-weight: 700;
-  color: #fff;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
 }
 .btn_youtube {
-	background-color: #FC0D1B;
-  font-family: Raleway;
-  font-size: 16px;
-  font-weight: 700;
-  color: #fff;
+	background-color: #fc0d1b;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
 	margin-bottom: 30px;
 }
 .logo-chanel img {
@@ -98,9 +96,9 @@ body {
 }
 .logo-chanel p {
 	font-family: Raleway;
-  font-size: 16px;
-  font-weight: 700;
-	color: #FFF;
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
 }
 .line {
 	width: 90%;
@@ -115,11 +113,10 @@ body {
 }
 .info-box p {
 	font-family: Raleway;
-  font-size: 16px;
-  font-weight: 700;
-	color: #FFF;
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
 }
-.info-box a{
+.info-box a {
 	color: #ccff54;
-
 }
